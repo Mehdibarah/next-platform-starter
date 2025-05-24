@@ -16,7 +16,9 @@
         'Noto Color Emoji';
 }
 
-@layer base {
+@layer base {body {
+  background-color: #f0f0f0;
+}
     h1 {
         @apply text-4xl font-bold tracking-tight sm:text-5xl;
     }
